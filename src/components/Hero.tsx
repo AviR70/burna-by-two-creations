@@ -48,7 +48,7 @@ const Hero = () => {
               Order Now
               <ArrowDown className="ml-2 w-5 h-5 group-hover:translate-y-1 transition-transform" />
             </Button>
-            <Button variant="cream" size="xl">
+            <Button variant="obsidian" size="xl">
               View Menu
             </Button>
           </div>

@@ -66,11 +66,14 @@ export default {
 			},
 			backgroundImage: {
 				'gradient-hero': 'var(--gradient-hero)',
-				'gradient-caramel': 'var(--gradient-caramel)',
-				'gradient-cream': 'var(--gradient-cream)'
+				'gradient-obsidian': 'var(--gradient-obsidian)',
+				'gradient-teal': 'var(--gradient-teal)',
+				'gradient-premium': 'var(--gradient-premium)',
+				'gradient-silk': 'var(--gradient-silk)'
 			},
 			boxShadow: {
-				'warm': 'var(--shadow-warm)',
+				'obsidian': 'var(--shadow-obsidian)',
+				'teal': 'var(--shadow-teal)',
 				'glow': 'var(--shadow-glow)'
 			},
 			borderRadius: {

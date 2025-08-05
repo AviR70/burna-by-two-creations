@@ -2,53 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Burna By Two - Burnt Basque Cheesecake Design System
-Warm, artisanal colors inspired by caramelized sugar and burnt cream
+/* Burna By Two - Premium Cake Company Design System
+Luxurious gradients featuring obsidian plum and deep teal silk
 */
 
 @layer base {
   :root {
-    --background: 37 28% 97%;
-    --foreground: 25 30% 8%;
+    --background: 210 20% 98%;
+    --foreground: 270 15% 12%;
 
-    --card: 40 20% 95%;
-    --card-foreground: 25 30% 8%;
+    --card: 210 15% 96%;
+    --card-foreground: 270 15% 12%;
 
-    --popover: 40 20% 95%;
-    --popover-foreground: 25 30% 8%;
+    --popover: 210 15% 96%;
+    --popover-foreground: 270 15% 12%;
 
-    /* Primary: Deep burnt caramel */
-    --primary: 25 55% 25%;
-    --primary-foreground: 40 35% 95%;
-    --primary-glow: 35 65% 45%;
+    /* Primary: Obsidian Plum */
+    --primary: 270 35% 15%;
+    --primary-foreground: 210 20% 98%;
+    --primary-glow: 270 50% 35%;
 
-    /* Secondary: Cream tones */
-    --secondary: 45 25% 88%;
-    --secondary-foreground: 25 30% 15%;
+    /* Secondary: Deep Teal Silk */
+    --secondary: 180 45% 25%;
+    --secondary-foreground: 210 20% 98%;
 
-    /* Muted: Soft cream */
-    --muted: 42 20% 92%;
-    --muted-foreground: 25 15% 45%;
+    /* Muted: Soft lavender */
+    --muted: 240 10% 92%;
+    --muted-foreground: 270 8% 45%;
 
-    /* Accent: Golden caramel */
-    --accent: 35 75% 55%;
-    --accent-foreground: 25 30% 8%;
+    /* Accent: Rich Teal */
+    --accent: 180 65% 35%;
+    --accent-foreground: 210 20% 98%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 40 35% 95%;
+    --destructive-foreground: 210 20% 98%;
 
-    --border: 42 15% 85%;
-    --input: 42 15% 85%;
-    --ring: 35 75% 55%;
+    --border: 240 8% 88%;
+    --input: 240 8% 88%;
+    --ring: 180 65% 35%;
 
-    /* Custom gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(25 55% 25%), hsl(35 65% 45%));
-    --gradient-caramel: linear-gradient(45deg, hsl(35 75% 55%), hsl(45 85% 65%));
-    --gradient-cream: linear-gradient(180deg, hsl(45 25% 88%), hsl(42 20% 92%));
+    /* Premium gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(270 35% 15%), hsl(180 45% 25%));
+    --gradient-obsidian: linear-gradient(45deg, hsl(270 35% 15%), hsl(270 50% 35%));
+    --gradient-teal: linear-gradient(135deg, hsl(180 45% 25%), hsl(180 65% 35%));
+    --gradient-premium: linear-gradient(90deg, hsl(270 35% 15%), hsl(180 45% 25%), hsl(270 50% 35%));
+    --gradient-silk: linear-gradient(180deg, hsl(180 65% 35%), hsl(180 45% 25%));
 
-    /* Custom shadows */
-    --shadow-warm: 0 10px 30px -10px hsl(25 55% 25% / 0.3);
-    --shadow-glow: 0 0 40px hsl(35 75% 55% / 0.2);
+    /* Premium shadows */
+    --shadow-obsidian: 0 15px 40px -10px hsl(270 35% 15% / 0.4);
+    --shadow-teal: 0 10px 30px -5px hsl(180 45% 25% / 0.3);
+    --shadow-glow: 0 0 50px hsl(180 65% 35% / 0.25);
 
     --radius: 0.5rem;
 
@@ -70,42 +73,45 @@ Warm, artisanal colors inspired by caramelized sugar and burnt cream
   }
 
   .dark {
-    --background: 25 35% 8%;
-    --foreground: 40 35% 95%;
+    --background: 270 25% 6%;
+    --foreground: 210 20% 95%;
 
-    --card: 25 30% 12%;
-    --card-foreground: 40 35% 95%;
+    --card: 270 20% 10%;
+    --card-foreground: 210 20% 95%;
 
-    --popover: 25 30% 12%;
-    --popover-foreground: 40 35% 95%;
+    --popover: 270 20% 10%;
+    --popover-foreground: 210 20% 95%;
 
-    --primary: 35 75% 55%;
-    --primary-foreground: 25 30% 8%;
-    --primary-glow: 45 85% 65%;
+    --primary: 180 65% 45%;
+    --primary-foreground: 270 25% 6%;
+    --primary-glow: 180 75% 55%;
 
-    --secondary: 25 25% 18%;
-    --secondary-foreground: 40 35% 95%;
+    --secondary: 270 30% 18%;
+    --secondary-foreground: 210 20% 95%;
 
-    --muted: 25 20% 16%;
-    --muted-foreground: 40 15% 65%;
+    --muted: 270 15% 14%;
+    --muted-foreground: 210 10% 65%;
 
-    --accent: 35 75% 55%;
-    --accent-foreground: 25 30% 8%;
+    --accent: 180 65% 45%;
+    --accent-foreground: 270 25% 6%;
 
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 40 35% 95%;
+    --destructive-foreground: 210 20% 95%;
 
-    --border: 25 20% 20%;
-    --input: 25 20% 20%;
-    --ring: 35 75% 55%;
+    --border: 270 15% 18%;
+    --input: 270 15% 18%;
+    --ring: 180 65% 45%;
 
-    /* Dark mode gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(25 35% 8%), hsl(25 30% 12%));
-    --gradient-caramel: linear-gradient(45deg, hsl(35 75% 55%), hsl(45 85% 65%));
-    --gradient-cream: linear-gradient(180deg, hsl(25 25% 18%), hsl(25 20% 16%));
+    /* Dark mode premium gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(270 25% 6%), hsl(270 20% 10%));
+    --gradient-obsidian: linear-gradient(45deg, hsl(270 30% 12%), hsl(270 35% 18%));
+    --gradient-teal: linear-gradient(135deg, hsl(180 45% 25%), hsl(180 65% 45%));
+    --gradient-premium: linear-gradient(90deg, hsl(270 30% 12%), hsl(180 45% 25%), hsl(180 65% 45%));
+    --gradient-silk: linear-gradient(180deg, hsl(180 65% 45%), hsl(180 55% 35%));
 
-    --shadow-warm: 0 10px 30px -10px hsl(0 0% 0% / 0.5);
-    --shadow-glow: 0 0 40px hsl(35 75% 55% / 0.3);
+    --shadow-obsidian: 0 15px 40px -10px hsl(0 0% 0% / 0.6);
+    --shadow-teal: 0 10px 30px -5px hsl(180 45% 25% / 0.4);
+    --shadow-glow: 0 0 50px hsl(180 65% 45% / 0.3);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

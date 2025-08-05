@@ -78,7 +78,7 @@ const ContactSection = () => {
               <div className="font-medium text-foreground mb-6">
                 @burna_by_two
               </div>
-              <Button variant="cream" className="w-full">
+              <Button variant="teal" className="w-full">
                 <Instagram className="w-4 h-4 mr-2" />
                 Follow on Instagram
               </Button>
@@ -144,7 +144,7 @@ const ContactSection = () => {
             <p className="text-primary-foreground/80 mb-6">
               Join hundreds of satisfied customers who trust us for their special moments
             </p>
-            <Button variant="cream" size="lg">
+            <Button variant="silk" size="lg">
               Place Your Order Now
             </Button>
           </div>

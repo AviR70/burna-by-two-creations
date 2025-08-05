@@ -100,7 +100,7 @@ const MenuSection = () => {
                     <ShoppingCart className="w-4 h-4 mr-2" />
                     Order
                   </Button>
-                  <Button variant="cream" size="sm">
+                  <Button variant="outline" size="sm">
                     <Info className="w-4 h-4" />
                   </Button>
                 </div>
